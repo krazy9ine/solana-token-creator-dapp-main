@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [Phantom Wallet](https://phantom.app/) browser extension
 - [Git](https://git-scm.com/)
-- Basic knowledge of Solana blockchain
+- Basic knowledge of Solana blockchain (https://solana-labs.github.io/solana-web3.js/)
 - Familiarity with JavaScript and React
 
 ## Installation
