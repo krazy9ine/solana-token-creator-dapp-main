@@ -1,4 +1,4 @@
-![logo](![Solana token creator dapp](https://github.com/krazy9ine/solana-token-creator-dapp-main/assets/152726423/25d4e480-56eb-4d05-ad6a-d961b6655209)
+(![Solana token creator dapp](https://github.com/krazy9ine/solana-token-creator-dapp-main/assets/152726423/25d4e480-56eb-4d05-ad6a-d961b6655209)
 
 
 # Solana Token Creator Dapp
