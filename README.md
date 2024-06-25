@@ -1,4 +1,5 @@
-![logo](https://github.com/AIMAN10001/AIMAN10001/blob/main/Solana%20token%20creator%20dapp.png)
+![Solana token creator dapp](https://github.com/krazy9ine/solana-token-creator-dapp-main/assets/152726423/25d4e480-56eb-4d05-ad6a-d961b6655209)
+
 
 # Solana Token Creator Dapp
 
@@ -28,3 +29,38 @@ Welcome to the Solana Token Creator Dapp! This decentralized application (Dapp) 
   - Solana: High-performance blockchain platform optimized for scalability and speed.
   - @solana/web3.js: Solana JavaScript library for interacting with the blockchain.
   - @solana/wallet-adapter-react: React library for integrating Solana wallet functionality into Dapps.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Phantom Wallet](https://phantom.app/) browser extension
+- [Git](https://git-scm.com/)
+- Basic knowledge of Solana blockchain (https://solana-labs.github.io/solana-web3.js/)
+- Familiarity with JavaScript and React
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/solana-token-creator.git
+    cd solana-token-creator
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+
+1. Open your browser and go to `http://localhost:3000`.
+2. Install and set up the [Phantom Wallet](https://phantom.app/) browser extension if you haven't already.
+3. Connect your Phantom wallet to the Solana Token Generator dApp.
+4. Fill in the token details such as Token Name, Ticker, Decimals, and Amount.
+5. Confirm the transaction in the Phantom wallet to create your Solana token.
