@@ -8,4 +8,4 @@ export { DonateView } from "./donate";
 export { CreateView } from "./create";
 export { InputView } from "./input";
 export { TokenMetaData } from "./tokenMetadata";
-export { ContactView } from "./conatct";
+export { ContactView } from "./contact";

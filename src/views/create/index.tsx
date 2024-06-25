@@ -356,8 +356,8 @@ export const CreateView: FC<CreateViewProps> = ({ setOpenCreateModal }) => {
                 {/* FIRST  */}
                 <Branding
                   image="auth-img"
-                  title="To build your solana token creator"
-                  message="Try and create your ever solana project, and you want to know how blockchain works check Bitcoin Whitepapper"
+                  title="Solana Token Creator"
+                  message="Easily create tokens on Solana Network without any coding or blockchain knowledge"
                 />
                 {/* SECOND  */}
                 <div className="lg:ps-0 flex h-full flex-col p-10">

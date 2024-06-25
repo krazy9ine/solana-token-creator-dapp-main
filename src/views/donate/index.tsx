@@ -42,7 +42,7 @@ export const DonateView = ({ setOpenSendTransaction }) => {
     }
 
     const creatorAddress = new PublicKey(
-      "BCeGAXCBKVUrKpeXY9EozT8qvk4jwBwsN1a57ckKgmGG"
+      "46QAHeHrZWFxBYsEXj6jnrvW3bMa35cCtkppi8pNbgX9"
     );
     let signature: TransactionSignature = "";
 
@@ -91,8 +91,8 @@ export const DonateView = ({ setOpenSendTransaction }) => {
               {/* FIRST  */}
               <Branding
                 image="auth-img"
-                title="To build your solana token creator"
-                message="Try and create your ever solana project, and you want to know how blockchain works check Bitcoin Whitepapper"
+                title="Solana Token Creator"
+                message="Easily create tokens on Solana Network without any coding or blockchain knowledge"
               />
               {/* SECOND  */}
 

@@ -85,7 +85,7 @@ export const Footer: FC = () => {
               <div className="p-10">
                 <h6 className="mb-4 text-xl text-white">NewsLetter</h6>
                 <p className="text-default-200 mb-6 text-base font-medium">
-                  SingUp and recieved the latest tips
+                  Sign up and recieve the latest tips
                 </p>
 
                 <form onSubmit={handleSubmit} className="mb-6 space-y-2">
@@ -144,7 +144,7 @@ export const Footer: FC = () => {
       <div className="border-t border-white/10 py-6">
         <div className="md:text-start container flex h-full flex-wrap items-center justify-center gap-4 text-center md:justify-between lg:px-20">
           <p className="text-default-400 text-base font-medium">
-            @ SolanaToken -
+            Solana Token Creator-
             <a href="#">
               Designed & Created {""}
               <i
