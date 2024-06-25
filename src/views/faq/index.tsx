@@ -3,39 +3,39 @@ import { FC } from "react";
 export const FaqView: FC = ({}) => {
   const questions = [
     {
-      question: " Who are produces sit pleasure?",
+      question: "How can I create a wallet for Solana?",
       answer:
-        " Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+        "To create a wallet for Solana, you can use the Phantom wallet extension. Install the extension from the Chrome Web Store, create a new wallet, and follow the prompts to set up your account securely.",
       id: "faq-1",
     },
     {
-      question: " What is quo voluptas nulla pariatur?",
+      question: "How do I connect my wallet to the Solana Token Generator dApp?",
       answer:
-        "Vivamus elementum semper nisi. Aenean vulputate eleifendtellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.",
+        "To connect your wallet to the Solana Token Generator dApp, click on the 'Connect Wallet' button on the homepage. Select the Phantom wallet option and approve the connection request in the Phantom wallet extension.",
       id: "faq-2",
     },
     {
-      question: "How to do transactions using iMbank?",
+      question: "How can I create a token on the Solana network?",
       answer:
-        " Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+        "To create a token on the Solana network, fill in the token details such as Token Name, Ticker, Decimals, and Amount in the Solana Token Generator dApp. Confirm the transaction in your Phantom wallet to create your token.",
       id: "faq-3",
     },
     {
-      question: " hot to activate iMbank service?",
+      question: "What are the transaction fees on the Solana network?",
       answer:
-        "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+        "The Solana network offers low transaction fees compared to many other blockchains. Typically, transaction fees are just a fraction of a cent, making it cost-effective to create and transfer tokens.",
       id: "faq-4",
     },
     {
-      question: "  Who is eligible to open iMbank account?",
+      question: "Is it safe to use the Solana Token Generator dApp?",
       answer:
-        "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+        "Yes, the Solana Token Generator dApp is designed with security in mind. Ensure that you only connect your wallet from a trusted device and approve transactions carefully within your Phantom wallet.",
       id: "faq-5",
     },
     {
-      question: "wil i be given a passbook?",
+      question: "Can I view my created tokens in the Phantom wallet?",
       answer:
-        "Aenean commodo ligula eget dolor. Aenean massa. Cum sociisnatoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+        "Yes, after creating your tokens using the Solana Token Generator dApp, you can view them in the Phantom wallet. Go to the 'Wallet' section and you should see your newly created tokens listed there.",
       id: "faq-6",
     },
   ];
@@ -46,12 +46,9 @@ export const FaqView: FC = ({}) => {
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="mb-4 text-3xl font-medium capitalize text-white">
-              Any Question
+              Any Questions
             </h2>
-            <p className="text-default-200 text-sm font-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              harum consequuntur aspernatur.
-            </p>
+           
           </div>
         </div>
 
@@ -82,11 +79,6 @@ export const FaqView: FC = ({}) => {
                   <div className="px-6 pb-4 pt-0">
                     <p className="text-default-300 mb-2 text-sm font-medium">
                       {question.answer}
-                    </p>
-                    <p className="text-default-300 text-sm font-medium">
-                      Have you ever wanted to know how does Blockchain network
-                      works? check Bitcoin Whitepaper - Written by Satoshi.
-                      Nakamoto in 2008
                     </p>
                   </div>
                 </div>
