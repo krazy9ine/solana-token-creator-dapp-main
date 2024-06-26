@@ -121,8 +121,7 @@ export const TokenMetaData: FC<TokenMetaDataProps> = ({
                       Link to your new token
                     </h4>
                     <p className="text-default-300 mx-auto mb-5 max-w-sm">
-                      Your Solana token is successfully created, check now
-                      explorer
+                      Your Solana token is successfully Created.
                     </p>
 
                     <div className="flex items-start justify-center">
