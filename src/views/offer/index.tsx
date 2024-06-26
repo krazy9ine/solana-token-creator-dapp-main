@@ -90,7 +90,7 @@ export const OfferView: FC = ({}) => {
                   Unleashing Innovation Success Story
                 </h3>
                 <p className="text-default-100 mb-4 text-sm font-medium">
-                  Delve into real-world examples of successful projects built on
+                  Dive into the realm of successful projects built on
                   the Solana blockchain.
                 </p>
                 <a
